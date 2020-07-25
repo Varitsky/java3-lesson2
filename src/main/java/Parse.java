@@ -33,6 +33,7 @@ public class Parse {
                     Score = Integer.parseInt(tokens[2]);
                 } catch (NumberFormatException e) {
                     System.err.println("Неправильный формат строки!");
+
                 }
                 add(tokens[1],Score);
                 line = reader.readLine();
